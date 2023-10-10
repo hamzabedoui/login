@@ -1,0 +1,159 @@
+body {
+  background-color: rgb(11, 86, 129);
+  font-family: sans-serif;
+}
+.loginpage {
+  background-color: rgb(86, 86, 210);
+  margin: 2rem 15rem;
+  padding: 2rem;
+  border: solid;
+  border-radius: 1rem;
+}
+.pagetitle {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  color: rgb(5, 2, 39);
+  align-items: center;
+}
+.title {
+  font-size: 1.2rem;
+  align-items: center;
+}
+.interface {
+  border-radius: 0.2rem;
+  padding: 0.2rem 0rem;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.titleinterface {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-direction: column;
+}
+.infointerface {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+.infoblock {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.btn {
+  background-color: teal;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  text-decoration: none;
+}
+.btn:hover {
+  cursor: pointer;
+}
+.btnblock {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+}
+.register {
+  font-size: 1.2rem;
+  color: rgb(2, 2, 50);
+}
+.registermain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(86, 86, 210);
+  margin: 2rem 15rem;
+  padding: 2rem;
+  border: solid;
+  border-radius: 1rem;
+}
+.registermain h2 {
+  color: rgb(40, 10, 68);
+}
+.todolabel{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  border-radius: 1rem;
+  border:solid rgb(1, 57, 65);
+  padding: 0.5rem;
+  background-color: rgba(7, 7, 158, 0.18);
+}
+.todoblock{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.todo{
+  height: 70px;
+  width: 400px;
+  font-size: 1.5rem;
+  padding: 1rem;
+  background-color: rgb(210, 208, 205);
+  border: solid 0.8px;
+  border-radius: 0.8rem;
+}
+.add-btn{
+  padding: 0.5rem 1.5rem;
+  font-size: 1.3rem;
+  background-color: rgb(13, 153, 168);
+  border-radius: 1.2rem;
+  cursor: pointer;
+}
+.delete-btn{
+  font-size: 24px;
+  color: red;
+  background-color: rgba(7, 7, 158, 0.18);
+  border: none;
+  cursor: pointer;
+}
+.todo-box{
+  border: solid rgb(6, 6, 0) ;
+  border-radius: 5rem;
+  padding: 2rem;
+  margin: 2rem 8rem;
+  min-height: 300px;
+  font-size: 1.8rem;
+  color: rgb(26, 26, 45);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.done-symbol {
+  font-size: 24px;
+  color: green;
+  background-color: rgba(7, 7, 158, 0.18);
+  border: none;
+  cursor: pointer;
+}
+.done{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+  color: rgb(8, 169, 8);
+  font-style: italic;
+  text-decoration: underline;
+}
+.edit-symbole{
+  font-size: 20px;
+  background-color: rgba(7, 7, 158, 0.18);
+}
+.label-edit{
+  padding: 0.5rem 1rem;
+  border-radius: 0.8rem;
+  font-size: 1.2rem;
+}
